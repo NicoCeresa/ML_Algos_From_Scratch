@@ -41,7 +41,7 @@ $loss = 0$ if $y * f(x) >= 1$ else $loss = 1 - y * f(x)$
 ### Regularization
 - trade off between minimizing loss and maximizing the distance to both sides
 
-$J = \lambda||w||^2 + \frac{1}{n}\sum_{i=1}^n{max(0,1 - y_i(w * x_i - b))}$
+$J = \lambda||w||^2 + \frac{1}{n}\sum_{i=1}^{n}{max(0,1 - y_i(w * x_i - b))}$
 
 if $y_i * f(x) \geq 1:$<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $J_i = \lambda||w||^2$
