@@ -68,3 +68,12 @@ if $y_i * f(x) \geq 1:$<br/>
 else:<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $w = w - \alpha * dw = w - \alpha * (2\lambda w - y_i * x_i)$<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $b = b - \alpha * db = b - \alpha * y_i$
+
+### Steps To Code
+1. Training<br/>
+    a. Init Weights <br/>
+    b. Make sure $y \in \{-1, 1\}$
+    c. Apply update rules for n_iters
+
+2. Prediction<br/>
+    a. Calculate $y = sign(w * x - b)$
