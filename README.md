@@ -2,6 +2,7 @@
 
 ## Algos So Far:
 - SVM
+- Perceptron
 
 ## SVM
 - **GOAL:** find a decision boundary that maximizes the distance between the plane and nearest data points
