@@ -1,4 +1,7 @@
 import numpy as np
+"""
+GOAL: Find a hyperplane that maximizes the distance between support vector
+"""
 
 class SVM:
     

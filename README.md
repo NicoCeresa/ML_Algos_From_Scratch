@@ -1,8 +1,23 @@
 # Implimentations of Machine Learning Algos using only NumPy
 
 ## Algos So Far:
+- Linear Regression
+- Logistic Regression
+- Naive Bayes
+- K-Nearest Neighbors
 - SVM
 - Perceptron
+## KNN
+- GOAL: Classify a point based on the majority label of it's K nearest neighbors
+- KEY: K must be odd as we cannot classify if there are an equal amount of each class
+
+### Steps
+1. Calculate the Euclidean Distance using this formula: <br/>
+$d(p,q) = \sqrt{\sum_{i=1}^n(q_i - p_i)^2}$
+
+2. Once you have calculated the distances between your point and all other training points, keep only the nearest K neighbors
+
+3. Find the label of those neighbors
 
 ## SVM
 - **GOAL:** find a decision boundary that maximizes the distance between the plane and nearest data points
