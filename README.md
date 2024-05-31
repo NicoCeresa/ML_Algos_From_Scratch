@@ -1,5 +1,5 @@
 # Implimentations of Machine Learning Algos using only NumPy
-
+https://www.youtube.com/playlist?list=PLqnslRFeH2Upcrywf-u2etjdxxkL8nl7E
 ## Algos So Far:
 - Linear Regression
 - Logistic Regression
